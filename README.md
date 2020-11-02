@@ -1,3 +1,3 @@
-#cocoa clone challenge
+#Cocoa Clone Challenge
 
-CSS got so much better
+HTML & CSS are so much fun!
