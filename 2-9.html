@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="kr">
     <head>
-        <meta charset="utf-8"/>
+        <meta charset="utf-8" />
     </head>
     <body>
         <form>
             <div>
                 <label for="website">Website</label>
-                <input id="website" placeholder="site" type="url"/>
+                <input id="website" placeholder="site" type="url" />
             </div>
             <!-- id 는 unique identifier;고유식별자로서 다른 tag에서 중복사용을 해서는 안 된다 또한 모든 태그는 id를 가질 수 있지만 하나만 소유할 수 있다 -->
             <div>
                 <label for="email">email</label>
-                <input id="email" placeholder="email" type="date" required/>
+                <input id="email" placeholder="email" type="date" required />
             </div>
             <!-- div = division ,경계라는 뜻으로 의미 없는 non-semantic tag, 박스를 나누는 정도라고 생각하면 된다 -->
             <input type="submit" value="create account" />
         </form>
-        <tagname banana="white" required atrriname="atrrivalue">lalalala</tagname>
+        <tagname banana="white" required atrrname="atrrivalue"
+            >lalalala</tagname
+        >
         <!-- 위 예처럼 전혀 말이 안 되는 tag와 atrribute를 사용해도 html에서는 오류로 인식하지 않고 표시할 수 있는 부분을 표시한다 -->
     </body>
 </html>
