@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="utf-8" />
+        <style>
+            html {
+                background-color: tomato;
+            }
+            body {
+                margin: 0px;
+                background-color: thistle;
+            }
+            /* body also has 8px margin as default value */
+            div {
+                /* display: inline; */
+                /* div를 inline처리하면 box의 성질을 잃는 것처럼 보인다. but why? because inline have no height and width.
+                inline is not box. */
+                /* margin is space from border of the box to the outside */
+                margin-left: 50px;
+                height: 150px;
+                width: 150px;
+                background-color: whitesmoke;
+            }
+            span {
+                /* display: block; */
+                /* display는 block과 inline을 변경할 수 있는 option, span의 default값은 inline */
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+        <!-- <span>I am genius</span> -->
+        <!-- <span>I am genius</span> -->
+    </body>
+</html>
