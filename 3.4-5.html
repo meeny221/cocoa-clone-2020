@@ -7,7 +7,8 @@
                 background-color: tomato;
             }
             body {
-                margin: 0px;
+                margin: 10px 20px 30px 15px;
+                /* margin값이 1개면 사방, 2개명 상하/좌우, 4개일땐 ,up-right-down-left */
                 background-color: thistle;
             }
             /* body also has 8px margin as default value */
@@ -16,7 +17,9 @@
                 /* div를 inline처리하면 box의 성질을 잃는 것처럼 보인다. but why? because inline have no height and width.
                 inline is not box. */
                 /* margin is space from border of the box to the outside */
-                margin-left: 50px;
+                margin: 50px;
+                /* <div>에 margin값을 줬는데 body의 margin-up도 같이 움직였다. 이러한 현상을 collapsing margin이라 하는데 이는
+                두 box의 경계가 맞닿아있을 때 발생한다. weird thing, it only happens vertically. 이를 위해 padding을 배우자 */
                 height: 150px;
                 width: 150px;
                 background-color: whitesmoke;

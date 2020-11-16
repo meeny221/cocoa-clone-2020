@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="utf-8" />
+        <style>
+            * {
+                border: 2px dashed black;
+            }
+            /* *표시는 전체;페이지 내 모든 요소에 스타일을 준다. cascading에 의해 전체에 효과를 줘도 아래에서 특정 단위에 효과를 주면 따로 적용된다. */
+            html {
+                background-color: tomato;
+            }
+            body {
+                margin: 20px 10px;
+                padding: 20px 10px;
+                background-color: thistle;
+            }
+
+            div {
+                padding: 10px;
+                /* height: 150px; */
+                /* width: 150px; */
+                /* 4개 div의 크기가 같기 때문에 카드게임처럼 나열된다. 게다가 body를 뚫고 나오기도 함. */
+                background-color: whitesmoke;
+                border: 2px solid black;
+            }
+            #first {
+                background-color: teal;
+                height: 150px;
+                width: 150px;
+            }
+            #second {
+                background-color: saddlebrown;
+                height: 100px;
+                width: 100px;
+            }
+            #third {
+                background-color: goldenrod;
+                height: 50px;
+                width: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="first">
+            <div id="second">
+                <div id="third">
+                    <span>hello</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
