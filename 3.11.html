@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>We are groot</title>
+        <meta charset="utf-8" />
+        <style>
+            body {
+                height: 100vh;
+                margin: 20px;
+                display: flex;
+                /* flex-direction: column; */
+                /* column일 떄 main axis와 cross axis가 바뀐다. default 값은 row */
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                /* flex-wrap의 default값은 no-wrap;화면 비율이 작아지면 width를 줄여버린다. wrap은 다음 칸으로 넘겨버린다. */
+            }
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 20px;
+                color: white;
+                width: 200px;
+                height: 200px;
+                background-color: tomato;
+            }
+            #second {
+                background-color: teal;
+            }
+        </style>
+    </head>
+    <body>
+        <div>1</div>
+        <div id="second">2</div>
+        <div>3</div>
+    </body>
+</html>

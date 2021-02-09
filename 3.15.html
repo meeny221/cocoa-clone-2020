@@ -1,0 +1,40 @@
+<head>
+    <title>root</title>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            height: 1000vh;
+            margin: 30px;
+        }
+        span {
+            background-color: yellowgreen;
+            padding: 10px;
+            border-radius: 10px;
+            /* text-decoration: underline; */
+        }
+        p span {
+            color: teal;
+            /* text-decoration: none; */
+        }
+        /* p안의 span의 style을 부여할 땐 나란히 작성하면 된다. */
+        div > span {
+            text-decoration: underline;
+        }
+        /* div > span 은 바로 아래 속성에만 영향을 끼치게끔 하는 combinator */
+        p + span {
+            color: tomato;
+        }
+        /* p +span 은 p 다음으로 오는 형제 tag를 가리키는 combinator */
+        p ~ span {
+            padiing: 20px;
+        }
+        /* p ~ span 은 바로 뒤는 아니지만 뒤쪽에 있는 형제에게 효과를 줄 떄 쓰는 combinator */
+    </style>
+</head>
+<body>
+    <div>
+        <p>Hi, it's me Allen How are you doing today? I'm fine. just usual day<span>inside</span></p>
+        <span>hello</span>
+    </div>
+</body>
+</html>
