@@ -1,0 +1,28 @@
+#tomato {
+  background-color: rgb(255, 99, 71);
+  width: 735px;
+  height: 528px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#whit {
+  background-color: rgb(245, 222, 179);
+  width: 230px;
+  height: 230px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.teal {
+  background-color: teal;
+  width: 45px;
+  height: 45px;
+  border: 2px solid white;
+}
+#mid {
+  width: 190px;
+  border: 2px dashed white;
+}
